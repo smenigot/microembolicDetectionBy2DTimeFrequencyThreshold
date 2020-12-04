@@ -1,0 +1,8 @@
+# Microembolic detection by a 2D-adaptive time-frequency Threshold
+
+This program can detect microembolic signature in ultrasound Doppler signal using a 2D-adaptive time-frequency Threshold from the file main.m. The aim of the method becomes achieving microembolic detection while rejecting artefacts. For the clinicians' procedure, the detection proposed is based on an adaptive thresholding applied on the spectrogram of the Doppler signal. The method required achieving three steps. First, the beginning of each cardiac cycle is assessed from the spectrogram of the Doppler signal. Second, by assuming that the Doppler signal is pseudo-cyclostationary, the spectrogram are segmented and time-normalised into sub-spectrograms for each cardiac cycles. Two two-dimensional-adaptive (2D-adaptive) thresholds of detection for microemboli and artefacts were statistically adjusted in both time and frequency. Third, the microembolus detection consists in both detecting the over-intensities in the sub-spectrograms and checking if the detected signatures are not artefacts.
+
+More information in : https://hal.archives-ouvertes.fr/hal-02384284
+
+To use this program, cite : <br/>
+Ménigot, S., Geryes, M., & Girault, J. M. (2020). Detection of Weak Doppler Microembolic Signature using Two-Dimensional-Adaptive Time-Frequency Threshold from Spectrogram. Biomedical Signal Processing and Control, 57, 101811. https://hal.archives-ouvertes.fr/hal-02384284
